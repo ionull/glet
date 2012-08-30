@@ -8,7 +8,8 @@
 	ZmZmAQEBAIY=
 	</data>
 	<key>Command</key>
-	<string>curl --silent "http://weather.yahooapis.com/forecastrss?p=CHXX0031&amp;u=c" | grep -E '(Current Conditions:|C&lt;BR)' | sed -e 's/Current Conditions://' -e 's/&lt;br \/&gt;//' -e 's/&lt;b&gt;//' -e 's/&lt;\/b&gt;//' -e 's/&lt;BR \/&gt;//' -e 's/&lt;description&gt;//' -e 's/&lt;\/description&gt;//'</string>
+	<string>curl --silent "http://weather.yahooapis.com/forecastrss?p=CHXX0031&amp;u=c" | grep -E '(Current Conditions:|C&lt;BR)' | sed -e 's/Current Conditions://' -e 's/&lt;br \/&gt;//' -e 's/&lt;b&gt;//' -e 's/&lt;\/b&gt;//' -e 's/&lt;BR \/&gt;//' -e 's/&lt;description&gt;//' -e 's/&lt;\/description&gt;//'
+</string>
 	<key>DropShadow</key>
 	<false/>
 	<key>FailureImage</key>
@@ -39,17 +40,17 @@
 	AQACAAABUwADAAAABAAABLIAAAAAAAgACAAIAAgAAQABAAEAAQ==
 	</data>
 	<key>FontFamily</key>
-	<string>BlairMdITCTT-Medium</string>
+	<string>TimesNewRomanPS-BoldItalicMT</string>
 	<key>FontSize</key>
-	<real>18</real>
+	<real>36</real>
 	<key>GeekletFrame</key>
-	<string>{{988, 21}, {283, 59}}</string>
+	<string>{{255, 53}, {411.125, 114.97265625}}</string>
 	<key>HasShadow</key>
 	<false/>
 	<key>Identifier</key>
 	<string>org.tynsoe.geeklet.shell</string>
 	<key>Name</key>
-	<string>Weather (description)</string>
+	<string>Yahoo Weather in Celsius</string>
 	<key>RefreshInterval</key>
 	<integer>300</integer>
 	<key>SetLocale</key>
